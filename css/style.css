@@ -1,0 +1,227 @@
+/*GENERAL*/
+*{
+    margin: 0;
+    padding: 1;
+    text-decoration: none;
+}
+
+a:link{color: #3a914d;}
+a:visited{color: #3a914d;}
+a:hover{color: #acd8aa;}
+a:active{color: #ffe6e8;}
+footer a:hover{color:#ffe6e8}
+
+/*GENERAL END*/
+
+/*PALETA ffe6e8, f2ccc3, e78f8e, acd8aa, f48498*/
+
+/*HEADER*/
+header{
+    background-color: #ffe6e8;
+    padding: 5px;
+    display: grid;
+    grid-template-columns: 15% 35% 50%;
+}
+
+.logo {
+	        -webkit-animation: heartbeat 1.5s ease-in-out infinite both;
+	        animation: heartbeat 1.5s ease-in-out infinite both;
+}
+
+@keyframes heartbeat {
+    from {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      -webkit-transform-origin: center center;
+              transform-origin: center center;
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+    10% {
+      -webkit-transform: scale(0.91);
+              transform: scale(0.91);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    17% {
+      -webkit-transform: scale(0.98);
+              transform: scale(0.98);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+    33% {
+      -webkit-transform: scale(0.87);
+              transform: scale(0.87);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    45% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+  }
+
+h1{
+    font-family: pacifico;
+    font-size: 60px;
+    align-self: center;
+}
+
+.header_nav{
+    align-self: center;
+}
+
+.header_ul{
+    display: flex;
+    font-family: 'Playfair Display', serif;
+}
+
+.header_li{
+    display: flex;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.clase_subrayada {
+    text-decoration: underline;
+}
+
+/*HEADER END*/
+
+/*MAIN*/
+main{
+    background: rgb(172,216,170);
+    background: linear-gradient(0deg, rgba(172,216,170,1) 14%, rgba(242,204,195,1) 56%, rgba(255,230,232,1) 100%);
+    font-family: 'Playfair Display', serif;
+    padding: 2rem;
+}
+
+.index_div{
+    display: flex;
+    justify-content: space-around;
+    gap: 1rem;
+}
+
+.index_p{
+    max-width: 50%;
+    align-self: center;
+}
+
+.sobremi_section{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-template-rows: 2;
+    gap: 1rem;
+}
+
+.sobremi_section_p {
+    padding: 7px;
+}
+
+.sobremi_iframe{
+    grid-column: 1 / span 4;
+    justify-self: center;
+}
+
+.proyectos_section{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    column-gap: 1rem;
+    row-gap: 5rem;
+    justify-items: center;
+    align-items: center;
+}
+
+.proyectos_div {
+    transition: 1s;
+}
+
+.proyectos_div:hover {
+    transform: scale(1.2);
+}
+
+.proyectos_section_p{
+    font-size: 40px;
+    font-family: 'Lobster Two', cursive;
+    text-align: center;
+}
+
+.patrones_main{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.patrones_section{
+    display: flex;
+    justify-content: space-around;
+    gap: 1rem;
+}
+
+.patrones_parrafos{
+    max-width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.patrones_h2{
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Lobster Two', cursive;
+}
+
+.patrones_boton{
+    text-align: center;
+    margin: auto;
+}
+
+.contacto_main{
+    padding: 5px;
+}
+
+/*MAIN END*/
+
+/*FOOTER*/
+footer{
+    background-color: #acd8aa;
+    font-family: 'Playfair Display', serif;
+    padding: 5px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.footer_nav{
+    align-self: center;
+}
+
+.footer_ul{
+    display: flex;
+    font-family: 'Playfair Display', serif;
+}
+
+.footer_li{
+    display: flex;
+    padding: 20px;
+    font-size: 20px;
+}
+
+/*FOOTER END*/
+
+/*MEDIA QUERIES*/
+
+@media {max-width: 320px;
+    
+}
+/* 
+@media screen and {max-width: 768px;
+
+}
+
+@media screen and {max-width: 1024px;
+    
+} */
+
+/*MEDIA QUERIES END*/

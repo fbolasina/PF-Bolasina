@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lanacolores</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Dancing+Script:wght@500&family=Lobster+Two:ital@1&family=Pacifico&family=Playfair+Display:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="icon" href="../img/favicon.png">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header>
+        <a class="logo" href="../index.html">
+            <img class="logo" src="../img/logo.png" alt="logo lanacolores">
+        </a>
+        <h1>Lanacolores</h1>
+        <nav class="header_nav">
+            <ul class="header_ul">
+                <li class="header_li">
+                    <a href="../index.html">Inicio</a>
+                </li>
+                <li class="header_li">
+                    <a href="./sobre_mi.html">Sobre Mi</a>
+                </li>
+                <li class="header_li">
+                    <a href="proyectos.html">Proyectos</a>
+                </li>
+                <li class="header_li">
+                    <a href="./patrones.html">Patrones</a>
+                </li>
+                <li class="header_li clase_subrayada">
+                    <a href="#">Contacto</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main class="contacto_main">
+        <section>
+            <fieldset>
+                <legend>Formulario de contacto</legend>
+                <form action="#" method="post" enctype="text/plain">
+                    <div>
+                        <label for="name">Nombre</label>
+                        <input type="text" name="name" id="name" required placeholder="Introduzca su nombre">
+                    </div>
+                    <div>
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" required placeholder="Introduzca su email">
+                    </div>
+                    <fieldset>
+                        <legend>Cuanta experiencia en tejidos posee?</legend>
+                        <div>
+                            <label for="tenured">Mucha experiencia</label>
+                            <input type="radio" name="experiencie" id="tenured" required>
+                        </div>
+                        <div>
+                            <label for="medium">Experiencia media</label>
+                            <input type="radio" name="experiencie" id="medium" required>
+                        </div>
+                        <div>
+                            <label for="rookie">Poca experiencia</label>
+                            <input type="radio" name="experiencie" id="rookie" required>
+                        </div>
+                    </fieldset>
+                    <div>
+                        <label for="comment">Comentario</label>
+                        <br>
+                        <textarea name="comment" id="comment" cols="30" rows="5" required placeholder="Ingrese su comentario"></textarea>
+                    </div>
+                    <div>
+                        <label for="newsletter">Desea recibir ofertas y novedades?</label>
+                        <input type="checkbox" id="newsletter">
+                    </div>
+                    <div>
+                    <input type="submit" id="submit">
+                    </div>
+                </form>
+            </fieldset>
+        </section>
+    </main>
+    <footer>
+        <h1>Lanacolores</h1>
+        <nav class="footer_nav">
+            <ul class="footer_ul">
+                <li class="footer_li">
+                    <a href="../index.html">Inicio</a>
+                </li>
+                <li class="footer_li">
+                    <a href="./sobre_mi.html">Sobre Mi</a>
+                </li>
+                <li class="footer_li">
+                    <a href="proyectos.html">Proyectos</a>
+                </li>
+                <li class="footer_li">
+                    <a href="./patrones.html">Patrones</a>
+                </li>
+                <li class="footer_li clase_subrayada">
+                    <a href="#">Contacto</a>
+                </li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+</html>
