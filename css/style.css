@@ -113,7 +113,8 @@ main{
     display: grid;
     grid-template-columns: 30% 70%;
     grid-template-rows: 2;
-    gap: 1rem;
+    gap: 2rem;
+    align-items: center;
 }
 
 .sobremi_section_p {
@@ -212,14 +213,94 @@ footer{
 
 /*MEDIA QUERIES*/
 
-@media {max-width: 320px;
-    
+@media screen and (max-width: 320px) and (min-width: 100px){
+    header {
+        display: flex;
+        flex-direction: column;
+    }
+    header ul {
+        flex-direction: column;
+    }
+    .header_nav {
+        align-self: flex-start;
+    }
+    .index_section {
+        gap: 2rem;
+        display: grid;
+    }
+    .index_div {
+        display: grid;
+        grid-template-columns: 100%;
+    }
+    .index_p {
+        max-width: 100%;
+    }
+    .index_img img {
+        max-width: 260px;
+        height: 380px;
+    }
+    .sobremi_section {
+        gap: 0;
+        grid-template-columns: 100%;
+        grid-template-areas: "sobremi_img" "sobremi_p" "sobremi_iframe";
+    }
+    .sobremi_img {
+        grid-area: sobremi_img;
+    }
+    .sobremi_p {
+        grid-area: sobremi_p;
+    }
+    .sobremi_iframe iframe {
+        grid-area: sobremi_iframe;
+        width: 100%;
+    } 
+    .proyectos_section {
+        grid-template-columns: 100%;
+    }
+    .proyectos_div:hover {
+        transform: none;
+    }
+    .patrones_section {
+        display: flex;
+        flex-direction: column;
+    }
+    .patrones_img img {
+        max-width: 260px;
+        height: 200px;
+    }
+    .patrones_parrafos {
+        max-width: 100%;
+    }
+    footer {
+        display: flex;
+        flex-direction: column;
+    }
+    footer ul {
+        flex-direction: column;
+    }
+    .footer_nav {
+        align-self: flex-start;
+    }
 }
+
+@media screen and (max-width: 768px) and (min-width: 321) {
+    h1 {
+        display: inline;
+    }
+    header {
+        display: grid;
+        grid-template-columns: 30% 70%;
+        grid-template-rows: auto;
+    }
+    header ul {
+        flex-direction: column;
+    }
+    .header_nav {
+        align-self: flex-start;
+    }
+}
+
 /* 
-@media screen and {max-width: 768px;
-
-}
-
 @media screen and {max-width: 1024px;
     
 } */
