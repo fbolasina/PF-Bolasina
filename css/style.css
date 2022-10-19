@@ -11,6 +11,10 @@ a:hover{color: #acd8aa;}
 a:active{color: #ffe6e8;}
 footer a:hover{color:#ffe6e8}
 
+a {
+    text-decoration: none;
+}
+
 ::selection {
     background-color: #7dcc8e;
 }
@@ -71,6 +75,7 @@ h1{
     font-family: pacifico;
     font-size: 60px;
     align-self: center;
+    font-weight: 500;
 }
 
 .header_nav{
@@ -111,6 +116,15 @@ main{
 .index_p{
     max-width: 50%;
     align-self: center;
+}
+
+.carousel-inner img {
+    margin: auto;
+}
+
+.carousel-caption {
+    color: black;
+    background-color: rgba(255, 255, 255, 0.4)
 }
 
 .sobremi_section{
