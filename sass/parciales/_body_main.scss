@@ -1,0 +1,71 @@
+body main{
+    background: linear-gradient(0deg, rgba(172,216,170,1) 14%, rgba(242,204,195,1) 56%, rgba(255,230,232,1) 100%);
+    font-family: 'Playfair Display', serif;
+}
+
+.carousel-inner img {
+    margin: auto;
+}
+
+.carousel-caption {
+    color: black;
+    background-color: rgba(255, 255, 255, 0.4)
+}
+
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fff'%3e%3cpath d='M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z'/%3e%3c/svg%3e");
+    background-color: #7dcc8e;
+}
+
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fff'%3e%3cpath d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+    background-color: #7dcc8e;
+}
+
+.proyectos_div {
+    transition: 1s;
+}
+
+.proyectos_div:hover {
+    transform: scale(1.2);
+}
+
+.proyectos_section_p{
+    font-size: 40px;
+    font-family: 'Lobster Two', cursive;
+}
+
+.patrones_main{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.patrones_section{
+    display: flex;
+    justify-content: space-around;
+    gap: 1rem;
+}
+
+.patrones_parrafos{
+    max-width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.patrones_h2{
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Lobster Two', cursive;
+}
+
+.patrones_boton{
+    text-align: center;
+    margin: auto;
+}
+
+.contacto_section{
+    padding: 5px;
+}
+
+@import "./variables.scss"

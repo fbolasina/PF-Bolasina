@@ -1,0 +1,126 @@
+/*PALETA ffe6e8, f2ccc3, e78f8e, acd8aa, f48498*/
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+a:link{color: #3a914d;}
+a:visited{color: #3a914d;}
+a:hover{color: #acd8aa;}
+a:active{color: #ffe6e8;}
+footer a:hover{color:#ffe6e8}
+
+a {
+    text-decoration: none;
+}
+
+::selection {
+    background-color: #7dcc8e;
+}
+
+.clase_subrayada {
+    text-decoration: underline;
+    text-decoration-color: #3a914d;
+}
+
+/*MEDIA QUERIES*/
+
+@media screen and (max-width: 1024px) and (min-width: 800px) {
+    header h1 {
+        font-size: 78px;
+    }
+    .logo {
+        width: 170px;
+        height: 170px;
+    }
+    .proyectos_div:hover {
+        transform: scale(1.1);
+    }
+    footer h1 {
+        font-size: 78px;
+    }
+}
+
+@media screen and (max-width: 768px) and (min-width: 400px){
+    .index_img img {
+        max-width: 300px;
+        max-height: 410px;
+    }
+    .sobremi_section {
+        justify-content: center;
+    }
+    .sobremi_iframe {
+        grid-column: 1 / 3;
+    }
+    .proyectos_section {
+        grid-template-columns: 1fr 1fr;
+    }
+    .proyectos_section_p {
+        font-size: 35px;
+    }
+    .proyectos_div:hover {
+        transform: scale(1.1);
+    }
+    .patrones_img {
+        width: 50%;
+    }
+    .patrones_img img {
+        width: 100%;
+    }
+    .patrones_parrafos {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 320px) and (min-width: 150px){
+    .index_img img {
+        max-width: 260px;
+        height: 380px;
+    }
+    .sobremi_section {
+        gap: 0;
+        grid-template-columns: 100%;
+        grid-template-areas: "sobremi_img" "sobremi_p" "sobremi_iframe";
+    }
+    .sobremi_img {
+        grid-area: sobremi_img;
+    }
+    .sobremi_p {
+        grid-area: sobremi_p;
+    }
+    .sobremi_iframe iframe {
+        grid-area: sobremi_iframe;
+        width: 100%;
+    } 
+    .proyectos_section {
+        grid-template-columns: 100%;
+    }
+    .proyectos_div img {
+        max-width: 256px;
+        max-height: 290px;
+    }
+    .proyectos_div:hover {
+        transform: scale(1.1);
+    }
+    .patrones_section {
+        display: flex;
+        flex-direction: column;
+    }
+    .patrones_img {
+        width: 100%;
+    }
+    .patrones_img img {
+        max-width: 260px;
+        height: 200px;
+    }
+    .patrones_parrafos {
+        width: 100%;
+        max-width: 100%;
+    }
+}
+
+/*MEDIA QUERIES END*/
+
+@import "./variables.scss"
