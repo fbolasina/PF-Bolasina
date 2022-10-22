@@ -50,9 +50,6 @@ h1 {
   padding: 20px;
   font-size: 20px; }
 
-.clase_subrayada {
-  text-decoration: underline; }
-
 body main {
   background: linear-gradient(0deg, #acd8aa 14%, #f2ccc3 56%, #ffe6e8 100%);
   font-family: 'Playfair Display', serif; }
@@ -72,28 +69,6 @@ body main {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fff'%3e%3cpath d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
   background-color: #7dcc8e; }
 
-.sobremi_section {
-  display: grid;
-  grid-template-columns: 30% 70%;
-  gap: 2rem;
-  align-items: center; }
-
-.sobremi_section_p {
-  padding: 7px; }
-
-.sobremi_iframe {
-  grid-column: 1 / span 4;
-  justify-self: center; }
-
-.proyectos_section {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: auto;
-  column-gap: 1rem;
-  row-gap: 5rem;
-  justify-items: center;
-  align-items: center; }
-
 .proyectos_div {
   transition: 1s; }
 
@@ -102,8 +77,7 @@ body main {
 
 .proyectos_section_p {
   font-size: 40px;
-  font-family: 'Lobster Two', cursive;
-  text-align: center; }
+  font-family: 'Lobster Two', cursive; }
 
 .patrones_main {
   display: flex;
@@ -139,8 +113,7 @@ footer {
 
 .footer_ul {
   display: flex;
-  font-family: 'Playfair Display', serif;
-  margin-bottom: 0; }
+  font-family: 'Playfair Display', serif; }
 
 .footer_li {
   display: flex;
@@ -173,6 +146,10 @@ a {
 
 ::selection {
   background-color: #7dcc8e; }
+
+.clase_subrayada {
+  text-decoration: underline;
+  text-decoration-color: #3a914d; }
 
 /*MEDIA QUERIES*/
 @media screen and (max-width: 1024px) and (min-width: 800px) {

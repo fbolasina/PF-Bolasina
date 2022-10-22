@@ -22,32 +22,6 @@ body main{
     background-color: #7dcc8e;
 }
 
-.sobremi_section{
-    display: grid;
-    grid-template-columns: 30% 70%;
-    gap: 2rem;
-    align-items: center;
-}
-
-.sobremi_section_p {
-    padding: 7px;
-}
-
-.sobremi_iframe{
-    grid-column: 1 / span 4;
-    justify-self: center;
-}
-
-.proyectos_section{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: auto;
-    column-gap: 1rem;
-    row-gap: 5rem;
-    justify-items: center;
-    align-items: center;
-}
-
 .proyectos_div {
     transition: 1s;
 }
@@ -59,7 +33,6 @@ body main{
 .proyectos_section_p{
     font-size: 40px;
     font-family: 'Lobster Two', cursive;
-    text-align: center;
 }
 
 .patrones_main{

@@ -20,6 +20,11 @@ a {
     background-color: #7dcc8e;
 }
 
+.clase_subrayada {
+    text-decoration: underline;
+    text-decoration-color: #3a914d;
+}
+
 /*MEDIA QUERIES*/
 
 @media screen and (max-width: 1024px) and (min-width: 800px) {
