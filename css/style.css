@@ -58,8 +58,7 @@ h1 {
 .clase_subrayada {
   text-decoration: underline; }
 
-main {
-  background: #acd8aa;
+body main {
   background: linear-gradient(0deg, #acd8aa 14%, #f2ccc3 56%, #ffe6e8 100%);
   font-family: 'Playfair Display', serif;
   padding: 2rem; }
