@@ -1,0 +1,22 @@
+footer{
+    background-color: #acd8aa;
+    font-family: 'Playfair Display', serif;
+    padding: 5px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.footer_nav{
+    align-self: center;
+}
+
+.footer_ul{
+    display: flex;
+    font-family: 'Playfair Display', serif;
+}
+
+.footer_li{
+    display: flex;
+    padding: 20px;
+    font-size: 20px;
+}
