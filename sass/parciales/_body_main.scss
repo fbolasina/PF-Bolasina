@@ -1,18 +1,6 @@
 body main{
     background: linear-gradient(0deg, rgba(172,216,170,1) 14%, rgba(242,204,195,1) 56%, rgba(255,230,232,1) 100%);
     font-family: 'Playfair Display', serif;
-    padding: 2rem;
-}
-
-.index_div{
-    display: flex;
-    justify-content: space-around;
-    gap: 1rem;
-}
-
-.index_p{
-    max-width: 50%;
-    align-self: center;
 }
 
 .carousel-inner img {

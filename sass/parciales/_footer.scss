@@ -1,18 +1,13 @@
 footer{
     background-color: #acd8aa;
     font-family: 'Playfair Display', serif;
-    padding: 5px;
-    display: grid;
-    grid-template-columns: 50% 50%;
-}
-
-.footer_nav{
-    align-self: center;
+    padding-top: 3rem;
 }
 
 .footer_ul{
     display: flex;
     font-family: 'Playfair Display', serif;
+    margin-bottom: 0;
 }
 
 .footer_li{

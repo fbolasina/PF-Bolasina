@@ -1,8 +1,6 @@
 header{
-    background-color: #ffe6e8;
-    padding: 5px;
-    display: grid;
-    grid-template-columns: 15% 35% 50%;
+        background-color: #ffe6e8;
+        padding-bottom: 2rem;
 }
 
 .logo {
@@ -45,30 +43,26 @@ header{
     }
   }
 
-  h1{
-    font-family: pacifico;
-    font-size: 60px;
-    align-self: center;
-    font-weight: 500;
-}
-
-.header_nav{
-    align-self: center;
+h1{
+        font-family: pacifico;
+        font-size: 60px;
+        align-self: center;
+        font-weight: 500;
 }
 
 .header_ul{
-    display: flex;
-    font-family: 'Playfair Display', serif;
+        display: flex;
+        font-family: 'Playfair Display', serif;
 }
 
 .header_li{
-    display: flex;
-    padding: 20px;
-    font-size: 20px;
+        display: flex;
+        padding: 20px;
+        font-size: 20px;
 }
 
 .clase_subrayada {
-    text-decoration: underline;
+        text-decoration: underline;
 }
 
 @import "./variables.scss"
