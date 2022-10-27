@@ -35,37 +35,10 @@ body main{
     font-family: 'Lobster Two', cursive;
 }
 
-.patrones_main{
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-}
-
-.patrones_section{
-    display: flex;
-    justify-content: space-around;
-    gap: 1rem;
-}
-
-.patrones_parrafos{
-    max-width: 50%;
-    display: flex;
-    flex-direction: column;
-}
-
 .patrones_h2{
     font-size: 50px;
     text-align: center;
     font-family: 'Lobster Two', cursive;
-}
-
-.patrones_boton{
-    text-align: center;
-    margin: auto;
-}
-
-.contacto_section{
-    padding: 5px;
 }
 
 @import "./variables.scss"
