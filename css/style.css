@@ -1,4 +1,4 @@
-header {
+.header {
   background-color: #ffe6e8;
   padding-bottom: 2rem; }
 
@@ -50,6 +50,8 @@ h1 {
   padding: 20px;
   font-size: 20px; }
 
+/*FONDO GRADIENTE*/
+/*PALETA*/
 body main {
   background: linear-gradient(0deg, #acd8aa 14%, #f2ccc3 56%, #ffe6e8 100%);
   font-family: 'Playfair Display', serif; }
@@ -84,6 +86,8 @@ body main {
   text-align: center;
   font-family: 'Lobster Two', cursive; }
 
+/*FONDO GRADIENTE*/
+/*PALETA*/
 footer {
   background-color: #acd8aa;
   font-family: 'Playfair Display', serif;
@@ -98,7 +102,10 @@ footer {
   padding: 20px;
   font-size: 20px; }
 
-/*PALETA ffe6e8, f2ccc3, e78f8e, acd8aa, f48498*/
+/*FONDO GRADIENTE*/
+/*PALETA*/
+/*FONDO GRADIENTE*/
+/*PALETA*/
 * {
   margin: 0;
   padding: 0;
@@ -141,11 +148,11 @@ a {
   footer h1 {
     font-size: 78px; } }
 
-@media screen and (max-width: 768px) and (min-width: 400px) {
+@media screen and (max-width: 768px) and (min-width: 601px) {
   .proyectos_div:hover {
     transform: scale(1.1); } }
 
-@media screen and (max-width: 320px) and (min-width: 150px) {
+@media screen and (max-width: 600px) and (min-width: 150px) {
   .header_nav {
     width: 100%; }
   .header_ul {
@@ -173,3 +180,5 @@ a {
     padding: .5rem; } }
 
 /*MEDIA QUERIES END*/
+/*FONDO GRADIENTE*/
+/*PALETA*/
