@@ -37,15 +37,15 @@
 
 h1 {
   font-family: pacifico;
-  font-size: 60px;
+  font-size: 70px;
   align-self: center;
   font-weight: 500; }
 
-.header_ul {
+.header_ul, .footer_ul {
   display: flex;
   font-family: 'Playfair Display', serif; }
 
-.header_li {
+.header_li, .footer_li {
   display: flex;
   padding: 20px;
   font-size: 20px; }
@@ -90,17 +90,9 @@ body main {
 /*PALETA*/
 footer {
   background-color: #acd8aa;
-  font-family: 'Playfair Display', serif;
   padding-top: 3rem; }
-
-.footer_ul {
-  display: flex;
-  font-family: 'Playfair Display', serif; }
-
-.footer_li {
-  display: flex;
-  padding: 20px;
-  font-size: 20px; }
+  footer a:hover {
+    color: #ffe6e8; }
 
 /*FONDO GRADIENTE*/
 /*PALETA*/
@@ -110,27 +102,19 @@ footer {
   margin: 0;
   padding: 0;
   text-decoration: none; }
-
-a:link {
-  color: #3a914d; }
-
-a:visited {
-  color: #3a914d; }
-
-a:hover {
-  color: #acd8aa; }
-
-a:active {
-  color: #ffe6e8; }
-
-footer a:hover {
-  color: #ffe6e8; }
+  *::selection {
+    background-color: #7dcc8e; }
 
 a {
   text-decoration: none; }
-
-::selection {
-  background-color: #7dcc8e; }
+  a:link {
+    color: #3a914d; }
+  a:visited {
+    color: #3a914d; }
+  a:hover {
+    color: #acd8aa; }
+  a:active {
+    color: #ffe6e8; }
 
 .clase_subrayada {
   text-decoration: underline;
@@ -155,11 +139,11 @@ a {
 @media screen and (max-width: 600px) and (min-width: 150px) {
   .header_nav {
     width: 100%; }
-  .header_ul {
+  .header_ul, .footer_ul {
     display: flexbox;
     flex-direction: column;
     padding: 0; }
-  .header_li {
+  .header_li, .footer_li {
     padding: .5rem; }
   .carousel {
     max-width: 90%;

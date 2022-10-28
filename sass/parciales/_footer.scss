@@ -1,18 +1,15 @@
 footer{
     background-color: $verdepalido;
-    font-family: 'Playfair Display', serif;
     padding-top: 3rem;
+    & a:hover{color:$rosapalido;}
 }
 
 .footer_ul{
-    display: flex;
-    font-family: 'Playfair Display', serif;
+    @extend .header_ul;
 }
 
 .footer_li{
-    display: flex;
-    padding: 20px;
-    font-size: 20px;
+    @extend .header_li;
 }
 
 @import "./variables.scss"

@@ -2,20 +2,15 @@
     margin: 0;
     padding: 0;
     text-decoration: none;
+    &::selection {background-color: $verdeclaro;}
 }
-
-a:link{color: $verdemoho;}
-a:visited{color: $verdemoho;}
-a:hover{color: $verdepalido;}
-a:active{color: $rosapalido;}
-footer a:hover{color:$rosapalido;}
 
 a {
     text-decoration: none;
-}
-
-::selection {
-    background-color: $verdeclaro;
+    &:link{color: $verdemoho;}
+    &:visited{color: $verdemoho;}
+    &:hover{color: $verdepalido;}
+    &:active{color: $rosapalido;}
 }
 
 .clase_subrayada {
