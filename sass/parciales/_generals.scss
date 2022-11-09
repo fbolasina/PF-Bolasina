@@ -123,10 +123,12 @@ a {
 
 #menu_on{
         display: inline-block;
-        width:30px;
+        width: 30px;
         height: 20px;
         position: absolute;
         z-index: 4;
+        margin-left: 10px;
+        margin-top: 25px;
 }
 
 #menu_on span{
@@ -170,7 +172,7 @@ nav a{
 }
 
 .visible_menu span:nth-child(1){
-        transform: rotate(45deg) translate(-2px,1px); 
+        transform: rotate(45deg) translate(-2px,1px);
 }
 
 .visible_menu span:nth-child(2){
@@ -178,7 +180,7 @@ nav a{
 }
 
 .visible_menu span:nth-child(3){
-        transform: rotate(-45deg) translate(-3px,3px); 
+        transform: rotate(-45deg) translate(-3px,3px);
 }
 
 .visible_menu nav{
@@ -193,6 +195,15 @@ nav a{
 .carousel {
         max-width: 90%;
         margin-left: 5%;
+}
+
+.carousel-item img {
+        width: 99%;
+        height: 50%;
+}
+
+.carousel-caption {
+        line-height: 18px;
 }
 
 .proyectos_div img {
