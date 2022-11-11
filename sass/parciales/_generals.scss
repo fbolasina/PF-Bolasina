@@ -121,6 +121,10 @@ a {
         padding: .5rem;
 }
 
+.d-flex.justify-content-end.align-items-center.visible-md-flex.visible-lg-flex.visible-xl-flex {
+        display: none;
+        }
+
 #menu_on{
         display: inline-block;
         width: 30px;
@@ -185,7 +189,7 @@ nav a{
 
 .visible_menu nav{
         left: 0;
-        opacity: 1;
+        opacity: 0.97;
 }
 
 .visible_menu #content{
