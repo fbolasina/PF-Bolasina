@@ -13,6 +13,7 @@ a {
         &:active{color: $rosapalido;}
 }
 
+@media screen and (max-width: 5000px) and (min-width: 1025px) {
 #div_logo {
         display: flex;
         justify-content: center;
@@ -26,6 +27,8 @@ a {
 .header_nav {
         display: flex;
         justify-content: center;
+}
+
 }
 
 .clase_subrayada {
@@ -121,10 +124,6 @@ a {
         padding: .5rem;
 }
 
-.d-flex.justify-content-end.align-items-center.visible-md-flex.visible-lg-flex.visible-xl-flex {
-        display: none;
-        }
-
 #menu_on{
         display: inline-block;
         width: 30px;
@@ -133,17 +132,16 @@ a {
         z-index: 4;
         margin-left: 10px;
         margin-top: 25px;
-}
-
-#menu_on span{
-        width: 100%;
-        height: 4px;
-        border-radius: 4px;
-        display: block;
-        position: absolute;
-        background: black;
-        transition: all 0.50s ease;
-        transform-origin : 0px 100%;
+                & span{
+                        width: 100%;
+                        height: 4px;
+                        border-radius: 4px;
+                        display: block;
+                        position: absolute;
+                        background: black;
+                        transition: all 0.50s ease;
+                        transform-origin : 0px 100%;
+        }
 }
 
 #menu_on span:nth-child(2){
@@ -166,13 +164,12 @@ a {
         opacity: 0;
         transition: all 0.75s ease;
         overflow-y: auto;
-}
-
-nav a{
-        display:block;
-        text-decoration: none;
-        padding: 10px;
-        transition: all ease 0.25s;
+                & a{
+                        display:block;
+                        text-decoration: none;
+                        padding: 10px;
+                        transition: all ease 0.25s;
+        }
 }
 
 .visible_menu span:nth-child(1){
@@ -187,27 +184,26 @@ nav a{
         transform: rotate(-45deg) translate(-3px,3px);
 }
 
-.visible_menu nav{
-        left: 0;
-        opacity: 0.97;
-}
-
-.visible_menu #content{
-        transform: translateX(260px);
+.visible_menu {
+        & nav{
+                left: 0;
+                opacity: 0.97;
+        }
+        & #content{
+                transform: translateX(260px);
+        }
 }
 
 .carousel {
         max-width: 90%;
         margin-left: 5%;
-}
-
-.carousel-item img {
-        width: 99%;
-        height: 50%;
-}
-
-.carousel-caption {
-        line-height: 18px;
+        &-item img {
+                width: 99%;
+                height: 50%;
+        }
+        &-caption {
+                        line-height: 18px;
+                }
 }
 
 .proyectos_div img {
