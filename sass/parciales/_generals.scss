@@ -13,7 +13,6 @@ a {
         &:active{color: $rosapalido;}
 }
 
-@media screen and (max-width: 5000px) and (min-width: 1025px) {
 #div_logo {
         display: flex;
         justify-content: center;
@@ -27,8 +26,6 @@ a {
 .header_nav {
         display: flex;
         justify-content: center;
-}
-
 }
 
 .clase_subrayada {
@@ -54,11 +51,6 @@ a {
         justify-content: center;
 }
 
-.logo {
-        width: 170px;
-        height: 170px;
-}
-
 .proyectos_img:hover {
         transform: scale(1.05);
 }
@@ -70,17 +62,7 @@ footer h1 {
 }
 
 @media screen and (max-width: 768px) and (min-width: 636px){
-#div_logo {
-        display: flex;
-        justify-content: center;
-}
-
-.header h1 {
-        display: flex;
-        justify-content: center;
-}
-
-.header_nav {
+#div_logo, .header h1, .header_nav {
         display: flex;
         justify-content: center;
 }
@@ -110,18 +92,18 @@ a {
         justify-content: center;
 }
 
-.header_nav {
-        width: 100%;
-}
-
-.header_ul {
-        display: flexbox;
-        flex-direction: column;
-        padding: 0;
-}
-
-.header_li {
-        padding: .5rem;
+header {
+        & nav {
+                width: 100%;
+        }
+        & ul {
+                display: flexbox;
+                flex-direction: column;
+                padding: 0;
+        }
+        & li {
+                padding: .5rem;
+        }
 }
 
 #menu_on{
@@ -215,10 +197,9 @@ a {
         transform: scale(1.05);
 }
 
-.footer_nav {
+footer nav {
         display: none;
 }
-
 }
 
 /*MEDIA QUERIES END*/
