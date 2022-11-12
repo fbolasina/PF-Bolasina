@@ -24,10 +24,9 @@ body main{
 
 .proyecto_img {
     transition: 1s;
+        &:hover {
+            transform: scale(1.15);
 }
-
-.proyecto_img:hover {
-    transform: scale(1.15);
 }
 
 .proyectos_section_p{

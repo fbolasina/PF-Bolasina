@@ -13,17 +13,7 @@ a {
         &:active{color: $rosapalido;}
 }
 
-#div_logo {
-        display: flex;
-        justify-content: center;
-}
-
-.header h1 {
-        display: flex;
-        justify-content: center;
-}
-        
-.header_nav {
+#div_logo, .header h1, .header_nav {
         display: flex;
         justify-content: center;
 }
@@ -34,14 +24,14 @@ a {
 }
 
 @media screen and (max-width: 5000px) and (min-width: 1025px) {
-        .collapse, .navbar {
-                display: none;
-        }
+.collapse, .navbar {
+        display: none;
+}
 }
 
 /*MEDIA QUERIES*/
 @media screen and (max-width: 1024px) and (min-width: 800px) {
-#div_logo {
+#div_logo, .header_nav {
         display: flex;
         justify-content: center;
 }
@@ -50,11 +40,6 @@ a {
         display: flex;
         justify-content: center;
         font-size: 78px;
-}
-        
-.header_nav {
-        display: flex;
-        justify-content: center;
 }
 
 .collapse, .navbar {
@@ -65,10 +50,13 @@ a {
         transform: scale(1.05);
 }
 
+.patrones_img1 {
+        height: 100%;
+}
+
 footer h1 {
         font-size: 78px;
 }
-
 }
 
 @media screen and (max-width: 768px) and (min-width: 636px){
@@ -84,6 +72,10 @@ footer h1 {
 .proyectos_img:hover {
         transform: scale(1.05);
 }
+
+.patrones_img1, .patrones_img2 {
+        height: 100%;
+}
 }
 
 @media screen and (max-width: 635px) and (min-width: 150px){
@@ -95,21 +87,14 @@ a {
         &:active{color: $rosapalido;}
 }
 
-#div_logo {
-        display: flex;
-        justify-content: center;
-}
-
-.header h1 {
+#div_logo, .header h1 {
         display: flex;
         justify-content: center;
 }
 
 .header_nav {
         display: none;
-}
-
-.header_nav2 {
+        &2 {
                 width: 100%;
         & ul {
                 display: flexbox;
@@ -124,6 +109,7 @@ a {
                 font-family: 'Playfair Display', serif;
         }
 }
+}
 
 .carousel {
         max-width: 90%;
@@ -133,7 +119,7 @@ a {
                 height: 50%;
         }
         &-caption {
-                        line-height: 18px;
+                line-height: 18px;
                 }
 }
 
@@ -152,5 +138,4 @@ footer nav {
 }
 
 /*MEDIA QUERIES END*/
-
 @import "./variables.scss"

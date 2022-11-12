@@ -72,9 +72,8 @@ body main {
 
 .proyecto_img {
   transition: 1s; }
-
-.proyecto_img:hover {
-  transform: scale(1.15); }
+  .proyecto_img:hover {
+    transform: scale(1.15); }
 
 .proyectos_section_p {
   font-size: 40px;
@@ -122,15 +121,7 @@ a {
   a:active {
     color: #ffe6e8; }
 
-#div_logo {
-  display: flex;
-  justify-content: center; }
-
-.header h1 {
-  display: flex;
-  justify-content: center; }
-
-.header_nav {
+#div_logo, .header h1, .header_nav {
   display: flex;
   justify-content: center; }
 
@@ -144,20 +135,19 @@ a {
 
 /*MEDIA QUERIES*/
 @media screen and (max-width: 1024px) and (min-width: 800px) {
-  #div_logo {
+  #div_logo, .header_nav {
     display: flex;
     justify-content: center; }
   .header h1 {
     display: flex;
     justify-content: center;
     font-size: 78px; }
-  .header_nav {
-    display: flex;
-    justify-content: center; }
   .collapse, .navbar {
     display: none; }
   .proyectos_img:hover {
     transform: scale(1.05); }
+  .patrones_img1 {
+    height: 100%; }
   footer h1 {
     font-size: 78px; } }
 
@@ -168,7 +158,9 @@ a {
   .collapse, .navbar {
     display: none; }
   .proyectos_img:hover {
-    transform: scale(1.05); } }
+    transform: scale(1.05); }
+  .patrones_img1, .patrones_img2 {
+    height: 100%; } }
 
 @media screen and (max-width: 635px) and (min-width: 150px) {
   a {
@@ -181,25 +173,22 @@ a {
       color: #acd8aa; }
     a:active {
       color: #ffe6e8; }
-  #div_logo {
-    display: flex;
-    justify-content: center; }
-  .header h1 {
+  #div_logo, .header h1 {
     display: flex;
     justify-content: center; }
   .header_nav {
     display: none; }
-  .header_nav2 {
-    width: 100%; }
-    .header_nav2 ul {
-      display: flexbox;
-      flex-direction: column;
-      padding: 0; }
-    .header_nav2 li {
-      padding: .5rem; }
-    .header_nav2 a {
-      color: #3a914d;
-      font-family: 'Playfair Display', serif; }
+    .header_nav2 {
+      width: 100%; }
+      .header_nav2 ul {
+        display: flexbox;
+        flex-direction: column;
+        padding: 0; }
+      .header_nav2 li {
+        padding: .5rem; }
+      .header_nav2 a {
+        color: #3a914d;
+        font-family: 'Playfair Display', serif; }
   .carousel {
     max-width: 90%;
     margin-left: 5%; }
